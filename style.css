@@ -1,0 +1,86 @@
+  .grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.image{
+    border: 2px solid black;
+    border-radius: 50px;
+    
+}
+
+.origami{
+
+    /* width: 300px; */
+    font-family: fantasy;
+    margin: 40px;
+    background-color: white;
+    padding: 10px;
+
+    align-self:center;
+
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(199, 209, 240);
+}
+
+.menu{ 
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px; */
+
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.topL{
+    position: absolute;
+    padding: 15px;
+    /* top: 30px; */
+    left: 10%;
+}
+
+.topM{
+    position: absolute;
+    padding: 15px; 
+    /* top: 30px;  */
+    left: 40%;
+    font-size: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.topR{
+    position: absolute;
+    padding: 15px; 
+    /* top: 30px; */
+    right: 10%;
+    
+}
+
+
+.headertxt {
+    position: absolute;
+    margin-left: 80px;
+    margin-right: 80px;
+    top: 100px;
+    right: 16px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Fuggles', cursive;;
+
+  }
+
+  a:link{
+    color:whitesmoke;
+}
+
+a:visited{
+    color:whitesmoke;
+}
+  
